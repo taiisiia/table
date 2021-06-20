@@ -1,0 +1,110 @@
+#tariffs {
+  border-collapse: collapse;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tariffs td {
+  padding: 15px;
+}
+
+#tariffs > thead td {
+  color: white;
+  font-weight: bold;
+}
+
+#tariffs > thead td:first-child {
+  background-color: #7887ab;
+  border-top-left-radius: 10px;
+}
+
+#tariffs > thead td:nth-child(2) {
+  background-color: #4f628e;
+}
+
+#tariffs > thead td:nth-child(3) {
+  background-color: #2e4172;
+}
+
+#tariffs > thead td:nth-child(4) {
+  background-color: #162955;
+}
+
+#tariffs > thead td:last-child {
+  background-color: #061539;
+  border-top-right-radius: 10px;
+}
+
+#tariffs > tbody > tr:nth-child(-n + 1) td:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+
+#tariffs > tbody > tr:nth-child(-n + 1) td:nth-child(2n + 1) {
+  background-color: #dbdbdb;
+}
+
+#tariffs > tbody > tr:nth-child(-2n + 2) td:nth-child(2n + 1) {
+  background-color: #e7e7e7;
+}
+
+#tariffs > tbody > tr:nth-child(-2n + 2) td:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+#tariffs > tbody > tr:nth-child(-3n + 3) td:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+
+#tariffs > tbody > tr:nth-child(-3n + 3) td:nth-child(2n + 1) {
+  background-color: #dbdbdb;
+}
+
+#tariffs > tbody > tr:nth-child(-4n + 4) td:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+#tariffs > tbody > tr:nth-child(-4n + 4) td:nth-child(2n + 1) {
+  background-color: #e7e7e7;
+}
+
+#tariffs > tbody > tr:nth-child(-5n + 5) td:nth-child(2n + 1) {
+  background-color: #dbdbdb;
+}
+
+#tariffs > tbody > tr:nth-child(-5n + 5) td:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+
+#tariffs > tbody > tr:nth-child(-6n + 6) td:nth-child(2n + 1) {
+  background-color: #e7e7e7;
+}
+
+#tariffs > tbody > tr:nth-child(-6n + 6) td:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+#tariffs > tfoot td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+#tariffs > tfoot td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+
+#tariffs > tfoot > tr:nth-child(-n + 1) td:nth-child(2n + 1) {
+  background-color: #dbdbdb;
+}
+
+#tariffs > tfoot > tr:nth-child(-n + 1) td:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+
+button {
+  padding: 10px 35px;
+  color: darkslategrey;
+  font-weight: bold;
+  background-color: #dbdbdb;
+  border: darkslategrey 1px solid;
+}
